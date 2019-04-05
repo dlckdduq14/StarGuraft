@@ -6,11 +6,15 @@ using System.Threading.Tasks;
 
 namespace StarGuraft
 {
-    class Marine : Unit
+    class Pan : WritingTool
     {
-        public override void MakeSound()
+        enum pan_sim
         {
-            Console.WriteLine("u wanna piece of meat?");
+            black = 1,
+            Red, Blue, Green, Sharp
         }
+
+        public static bool ink_amount ;
+
     }
 }

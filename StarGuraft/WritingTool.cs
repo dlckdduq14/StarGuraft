@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace StarGuraft
 {
-    class Zealot : Unit
+    abstract class WritingTool
     {
-        public override void MakeSound()
-        {
-            Console.WriteLine("아이어를 위하여");
-        }
+        public bool ink = true;
+
     }
 }
